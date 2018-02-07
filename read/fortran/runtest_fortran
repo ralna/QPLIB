@@ -1,0 +1,10 @@
+#!/bin/sh -f
+
+# script to test the fortran qplib decoder.
+#  runtest_fortran filename
+# where filename is a .qplib[.gzip] file
+
+gfortran -o test_fortran read_qplib.f90 test_read_qplib.f90
+unzip -p $1 > /tmp/unlikelyprobname.qplib
+test_fortran < /tmp/unlikelyprobname.qplib
+rm -rf /tmp/unlikelyprobname.qplib test_fortran galahad_rpd_double.mod

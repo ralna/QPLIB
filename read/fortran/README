@@ -1,0 +1,26 @@
+Files in this directory
+
+read_qplib.f90       fortran subroutine to read a .qplib file into
+                     a fortran 90 structure.
+
+test_read_qplib.f90  a test program for read_qplib.f90
+
+runtest_fortran      a Linux script to compile the fortran files and
+                     then to run the test on a specified zipped .qplib file.
+                     The syntax is
+                       runtest_fortran filename
+                     where filename is a .qplib[.gzip] file
+
+qplib2lp.f90         fortran program to translate a .qplib file into
+                     ILOG (CPLEX) lp format. The .qplib format should
+                     be read from standard input, and the resulting lp
+                     file will be written to standard output
+
+lp2qplib.f90         fortran program to translate an ILOG (CPLEX) lp format
+                     file into .qplib format should. The .lp file should be
+                     read from standard input, and the resulting qplib
+                     file will be written to a file whose name is that
+                     obtained from the .lp file with an added suffix .qplib
+
+Nick Gould
+15 December 2016
