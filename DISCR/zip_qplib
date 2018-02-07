@@ -1,0 +1,6 @@
+#!/bin/csh -f
+
+foreach qplibfile(`/bin/ls *.qplib`)
+  zip "$qplibfile".zip "$qplibfile"
+  /bin/rm -f "$qplibfile"
+end
