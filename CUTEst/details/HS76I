@@ -1,0 +1,13 @@
+HS76I
+
+    Source: problem 76 in
+    W. Hock and K. Schittkowski,
+    "Test examples for nonlinear programming codes",
+    Lectures Notes in Economics and Mathematical Systems 187, Springer
+    Verlag, Heidelberg, 1981.
+
+    PROBLEM USED AS INTEGER QUADRATIC TEST PROBLEM (NEW UPPER BOUNDS)
+
+    SIF input: A.R. Conn, March 1991.
+
+    classification QLR2-AN-4-3

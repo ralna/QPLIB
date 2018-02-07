@@ -1,0 +1,15 @@
+GRIDNETB
+
+    A nonlinear network problem on a square grid,
+    Source:
+    Ph.L. Toint and D. Tuyttens,
+    "On large scale nonlinear network optimization",
+    Mathematical Programming B, vol. 48(1), pp.125-159, 1990.
+
+    This version: bounds corresponding to i = 0 and a = 0 and r = 0.1.
+    The number of variables is N = 2*NS*(NS-1), where NS = 2*L+2.
+
+    SIF input: Ph. Toint, March 1990.
+               minor correction by Ph. Shott, Jan 1995.
+
+    classification QNR2-AN-V-V

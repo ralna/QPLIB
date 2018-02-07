@@ -1,0 +1,16 @@
+BIGGSC4
+
+    Problem:
+    ********
+
+    A test quadratic test problem (invented starting point).
+
+    Source:
+    M. Batholomew-Biggs and F.G. Hernandez,
+    "Some improvements to the subroutine OPALQP for dealing with large
+     problems",
+    Numerical Optimization Centre, Hatfield, 1992.
+
+    SIF input: Ph Toint, April 1992.
+
+    classification QLR2-AN-4-7

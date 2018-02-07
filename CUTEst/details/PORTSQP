@@ -1,0 +1,19 @@
+PORTSQP
+
+    A convex quadratic program of portfolio type
+
+    The objective function is of the form
+
+       sum (i=1,n) ( x_i - ( 2 i - n ) / n )^2
+
+    There is a single equality constraint of the form
+
+       sum(i=1,n) x_i = 1
+
+    Finally, there are simple bounds
+
+          0 <= x_i   (i=1,n)
+
+    SIF input: Nick Gould, June 2001
+
+    classification QLR2-AN-V-1

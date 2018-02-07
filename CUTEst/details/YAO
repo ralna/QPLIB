@@ -1,0 +1,21 @@
+YAO
+
+    Problem:
+    ********
+
+    A linear least-sqaure problem with k-convex constraints
+
+       min (1/2) || f(t) - x ||^2
+
+    subject to the constraints
+       _
+       \/_k  x  >=  0,
+
+    where  f(t) and  x  are vectors in (n+k)-dimensional space.
+
+    We choose f(t) = sin(t), x(1) >= 0.08 and fix x(n+i) = 0
+
+    SIF input: Aixiang Yao, Virginia Tech., May 1995
+               modifications by Nick Gould
+
+    classification QLR2-AN-V-V

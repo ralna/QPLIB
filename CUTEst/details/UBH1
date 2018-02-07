@@ -1,0 +1,19 @@
+UBH1
+
+    The problem is to minimize the integral of the control magnitude needed
+    to bring a vehicle, from given position and velocity, to the origin with
+    zero velocity in a fixed amount of time.  The controls are the components
+    of the vehicle acceleration.  It is a quadratic linear problem.
+    The discretization uses the trapezoidal rule.
+
+    The problem is convex.
+
+    Source: unscaled problem 1
+    (ODE = 1, CLS = 1, GRD = 1, MET = T, SEED = 0.) in
+    J.T. Betts and W.P. Huffman,
+    "Sparse Nonlinear Programming Test Problems (Release 1.0)",
+    Boeing Computer services, Seattle, July 1993.
+
+    SIF input: Ph.L. Toint, October 1993.
+
+    classification QLR2-MN-V-V

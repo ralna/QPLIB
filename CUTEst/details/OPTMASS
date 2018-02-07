@@ -1,0 +1,27 @@
+OPTMASS
+
+    A constrained optimal control problem
+    adapted from Gawande and Dunn
+
+    The problem is that of a particle of unit mass moving on a
+    frictionless plane under the action of a controlling force whose
+    magnitude may not exceed unity. At time=0, the particle moves through
+    the origin of the plane in the direction of the positive x-axis with
+    speed SPEED.  The cost function incorporates two conflicting control
+    objectives, namely: maximization of the particle's final (at time=1)
+    distance from the origin and minimization of its final speed.  By
+    increasing the  value of the penalty constant PEN, more stress can be
+    placed on the latter objective.
+
+    Gawande and Dunn originally use a starting point (in the control
+    only) that is much closer to the solution than the one chosen
+    here.
+
+    Source:
+    M. Gawande and J. Dunn,
+    "A Projected Newton Method in a Cartesian Product of Balls",
+    JOTA 59(1): 59-69, 1988.
+
+    SIF input: Ph. Toint, June 1990.
+
+    classification QQR2-AN-V-V

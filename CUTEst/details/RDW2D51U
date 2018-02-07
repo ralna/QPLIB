@@ -1,0 +1,22 @@
+RDW2D51U
+
+    A finite-element approximation to the distributed optimal control problem
+
+       min 1/2||u-v||_L2^2 + beta ||f||_L2^2
+
+    subject to - nabla^2 u = f
+
+    where v is given on and within the boundary of a unit [0,1] box in
+    2 dimensions, and u = v on its boundary. The discretization uses
+    quadrilateral elememts.
+
+    The problem is stated as a quadratic program
+
+    Source:  example 5.1 in
+     T. Rees, H. S. Dollar and A. J. Wathen
+     "Optimal solvers for PDE-constrained optimization"
+     SIAM J. Sci. Comp. (to appear) 2009
+
+    SIF input: Nick Gould, May 2009
+
+    classification QLR2-AN-V-V

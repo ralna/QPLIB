@@ -1,0 +1,12 @@
+STEENBRA
+
+    A totally separable quadratic multi-commodity network problem.
+
+    Source: p. 109 of
+    P.A. Steenbrink,
+    "Optimization of Transport Networks",
+    Wiley, 1974.
+
+    SIF input: Ph. Toint, June 1990.
+
+    classification QNR2-AY-432-108

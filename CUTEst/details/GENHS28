@@ -1,0 +1,12 @@
+GENHS28
+
+    Source: a multi-dimensional extension of problem 28 in
+    W. Hock and K. Schittkowski,
+    "Test examples for nonlinear programming codes",
+    Lectures Notes in Economics and Mathematical Systems 187, Springer
+    Verlag, Heidelberg, 1981.
+
+    SIF input: Nick Gould, December 1991
+               minor correction by Ph. Shott, Jan 1995.
+
+    classification QLR2-AY-10-8

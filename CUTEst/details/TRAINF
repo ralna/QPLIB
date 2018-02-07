@@ -1,0 +1,18 @@
+TRAINF
+
+    This is an optimal control problem.
+    The problem is to minimize the energy spent to move a train
+    from the beginning of a flat track to its end in a given time.  The train
+    is slowed down by some drag (assumed to be quadratic in the the velocity).
+    The control variables are the acceleration force (UA) and the braking
+    force (UB) applied on the train.
+
+    Source:
+    J. Kautsky and N. K. Nichols,
+    "OTEP-2: Optimal Train Energy Programme, mark 2",
+    Numerical Analysis Report NA/4/83,
+    Department of Mathematics, University of Reading, 1983.
+
+    SIF input: N. Nichols and Ph. Toint, April 1993
+
+    classification QQR2-MN-V-V

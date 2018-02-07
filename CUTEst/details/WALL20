@@ -1,0 +1,11 @@
+WALL20
+
+    A bound-constrained quadratic program
+    arising as a contact problem involving a wall
+    (using a running bond model)
+
+    Source: Angela Mihai (angela.mihai@strath.ac.uk)
+
+    SIF input: Nick Gould, July 2005
+
+    classification QLR2-RN-5924-0

@@ -1,0 +1,13 @@
+BT8
+
+    Source: problem 8 in
+    P.T. Boggs and J.W. Tolle,
+    "A strategy for global convergence in a sequential
+     quadratic programming algorithm",
+    SINUM 26(3), pp. 600-623, 1989.
+
+    The problem is not convex.
+
+    SIF input: Ph. Toint, June 1993.
+
+    classification QQR2-AN-5-2

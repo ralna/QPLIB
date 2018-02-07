@@ -1,0 +1,17 @@
+GMNCASE1
+
+    A non-convex quadratic program from control.
+
+    The aim is to synthesize a quadratically optimized control
+    for an industrial process that respects certain constraints
+    which may be physical or part of a design. The data is from
+    one instant in a continuous process.
+
+    Source:
+    Gordon McNeilly (gordon@icu.strath.ac.uk)
+    Industrial Control Centre
+    Strathclyde University, Glasgow G1 1QE
+
+    SIF input: Nick Gould, October 1997
+
+    classification QLR2-AN-175-300

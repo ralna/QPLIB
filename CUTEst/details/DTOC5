@@ -1,0 +1,23 @@
+DTOC5
+
+    This is a discrete time optimal control (DTOC) problem.
+    The system has N time periods, 1 control variable and 1 state variable.
+
+    The problem is convex.
+
+    Sources: problem 5 in
+    T.F. Coleman and A. Liao,
+    "An Efficient Trust Region Method for Unconstrained Discret-Time Optimal
+    Control Problems",
+    Tech. Report, ctc93tr144,  Advanced Computing Research Institute,
+    Cornell University, 1992.
+
+    G. Di Pillo, L. Grippo and F. Lampariello,
+    "A class of structures quasi-Newton algorithms for optimal control
+    problems",
+    in H.E. Rauch, ed., IFAC Applications of nonlinear programming to
+    optimization and control, pp. 101-107, IFAC, Pergamon Press, 1983.
+
+    SIF input: Ph. Toint, August 1993
+
+    classification QQR2-AN-V-V

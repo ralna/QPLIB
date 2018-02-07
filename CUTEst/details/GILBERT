@@ -1,0 +1,14 @@
+GILBERT
+
+    A simple constrained problem, where a diagonal convex quadratic objective
+    is minimized on the unit sphere.
+
+    Source:
+    J.Ch. Gilbert,
+    "On the Realization of the Wolfe Conditions in Reduced Quasi-Newton
+    Methods for Equality Constrained Optimization",
+    RR-2127, INRIA (F), 1993.
+
+    SIF input: Ph. Toint, April 1994
+
+    classification QQR2-AN-V-1

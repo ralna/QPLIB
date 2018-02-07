@@ -1,0 +1,8 @@
+DEGTRID
+
+    A degenerate bound constrained convex quadratic program
+    with a tri-diagonal Hessian
+
+    SIF input: Nick Gould, August 2011
+
+    classification QBR2-AN-V-0

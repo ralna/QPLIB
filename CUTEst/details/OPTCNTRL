@@ -1,0 +1,12 @@
+OPTCNTRL
+
+    An optimal control problem
+
+    Source:
+    B. Murtagh and M. Saunders,
+    Mathematical Programming studies 16, pp 84-117,
+    (example 5.11)
+
+    SIF input: Nick Gould, June 1990.
+
+    classification QQR2-AN-32-20

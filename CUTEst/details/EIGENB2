@@ -1,0 +1,19 @@
+EIGENB2
+
+    --------
+
+    Solving symmetric eigenvalue problems as systems of
+    nonlinear equations.
+
+    The problem is, given a symmetric matrix A, to find an orthogonal
+    matrix Q and diagonal matrix D such that A Q(T) = Q(T) D.
+
+    Example B: a tridiagonal matrix with diagonals 2 and off diagonals -1
+
+    Source:  An idea by Nick Gould
+
+                Nonlinear equations version 2.
+
+    SIF input: Nick Gould, Nov 1992.
+
+    classification QQR2-AN-V-V

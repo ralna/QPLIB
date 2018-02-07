@@ -1,0 +1,20 @@
+OBSTCLAE
+
+    A quadratic obstacle problem by Dembo and Tulowitzki
+
+    The problem comes from the obstacle problem on a rectangle.
+    The rectangle is discretized into (px-1)(py-1) little rectangles. The
+    heights of the considered surface above the corners of these little
+    rectangles are the problem variables,  There are px*py of them.
+
+    Source:
+    R. Dembo and U. Tulowitzki,
+    "On the minimization of quadratic functions subject to box
+    constraints",
+    WP 71, Yale University (new Haven, USA), 1983.
+
+    See also More 1989 (Problem A, Starting point E)
+
+    SIF input: Ph. Toint, Dec 1989.
+
+    classification QBR2-AY-V-0

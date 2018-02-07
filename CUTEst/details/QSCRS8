@@ -1,0 +1,11 @@
+QSCRS8
+
+    A convex QP.
+
+    Source:
+    I. Maros and C. Meszaros's convex QP collection
+    see http://www.doc.ic.ac.uk/~im/
+
+    SIF input: (already in QPS format)
+
+    classification QLR2-AN-1169-490

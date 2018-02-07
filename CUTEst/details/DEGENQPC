@@ -1,0 +1,9 @@
+DEGENQPC
+
+    A simple degenerate convex quadratic program,
+    with a large number of constraints.
+    Corrected version of DEGENQP
+
+    SIF input: Nick Gould, March 2013
+
+    classification QLR2-AN-V-V

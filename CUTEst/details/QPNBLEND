@@ -1,0 +1,10 @@
+QPNBLEND
+
+    Source: a variant on the BLEND linear programming problem
+    with an additional NONCONVEX diagonal Hessian matrix as given by
+    N. I. M. Gould, "An algorithm for large-scale quadratic programming",
+    IMA J. Num. Anal (1991), 11, 299-324, problem class 4.
+
+    SIF input: Nick Gould, January 1993
+
+    classification QLR2-MN-83-74

@@ -1,0 +1,17 @@
+OPTCDEG3
+
+    An optimal control problem determining the applied force
+    that restores a cubically damped spring-mass system to equilibrium
+    as fast as possible, given bounds on state and control variables.
+    The displacement of the mass from equilibrium is x, velocity is y,
+    and the controlling force is u.  The objective function also differs
+    slightly from that of OPTCDEG2.
+
+    Source:
+    P.S. Ritch,
+    Automatica, 1973, V9, pp 415-429,
+    (example 6.1)
+
+    SIF input: Todd Plantenga, August 1995.
+
+    classification QQR2-AN-V-V

@@ -1,0 +1,16 @@
+ODNAMUR
+
+    A origin-destination matrix estimation problem in the city of Namur.
+    The peculiarity of this problem is to take parking surveys into account
+    as well as traffic counts.
+
+    The problem is not well conditioned.
+
+    Source: a true transportation study.  See also
+    M. Bierlaire and Ph.L. Toint,
+    "MEUSE: an origin-destination matrix estimator that exploits structure",
+    Report 93/7, Dept of Maths, FUNDP, Namur, Belgium, EC.
+
+    SIF input: M. Bierlaire and Ph. Toint, Jan 1993.
+
+    classification QBR2-RN-11130-0

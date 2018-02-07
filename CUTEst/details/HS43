@@ -1,0 +1,14 @@
+HS43
+
+    The Rosen-Suzuki test problem.
+
+    Source: problem 43 in
+    W. Hock and K. Schittkowski,
+    "Test examples for nonlinear programming codes",
+    Lectures Notes in Economics and Mathematical Systems 187, Springer
+    Verlag, Heidelberg, 1981.
+
+    SIF input: A.R. Conn, April 1990
+               minor correction by Ph. Shott, Jan 1995.
+
+    classification QQR2-AN-4-3

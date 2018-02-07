@@ -1,0 +1,22 @@
+OPTCTRL6
+
+    An optimal control problem
+
+    This problem is a modification of OPTCNTRL.  All bound constraints
+    were removed.  At the solution, the bounds on U1-U9 are active,
+    so a penalty term was added to the objective:
+
+         mu * ||u(i) - active_bound||
+
+    The value of mu (TDP_mu) was chosen to be very large, making the
+    Hessian of the objective ill-conditioned.
+
+    Source:
+    B. Murtagh and M. Saunders,
+    Mathematical Programming studies 16, pp 84-117,
+    (example 5.11)
+
+    SIF input: Nick Gould, June 1990.
+               modified by T. Plantagena, December 1992.
+
+    classification QQR2-AN-V-V

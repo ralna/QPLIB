@@ -1,0 +1,12 @@
+TAME
+
+    A simple constrained linear least-squares problem
+
+    Source:
+    A.R. Conn, N. Gould and Ph.L. Toint,
+    "The LANCELOT User's Manual",
+    Dept of Maths, FUNDP, 1991.
+
+    SIF input: Ph. Toint, Jan 1991.
+
+    classification QLR2-AN-2-1

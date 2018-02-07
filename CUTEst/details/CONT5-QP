@@ -1,0 +1,28 @@
+CONT5-QP
+
+    A linear-quadratic control problem as suggested by
+
+    K. Schittkowski,
+    ``Numerical solution of a time-optimal parabolic boundary-value
+      control problem'', J. Optim. Theory Appl., vol. 27, pp. 271-290, 1979,
+
+    H. Goldberg and F. Troltzsch,
+    ``On a Lagrange-Newton method for a nonlinear parabolic boundary control
+     problem'', Optim. Meth. Software, vol. 8, pp. 225-247, 1998.
+
+    and
+
+    H. D. Mittelmann,
+    ``Verification of Second-Order Sufficient Optimality Conditions
+      for Semilinear Elliptic and Parabolic Control Problems'',
+     to appear in Comp. Optim. Applic. 2000.
+
+    See also Hans Mittelmann's WWW article
+
+     http://plato.la.asu.edu/papers/paper90/paper.html
+
+    where the problem is example 5.2-I.
+
+    SIF input: Nick Gould, August 2000
+
+    classification QLR2-MN-V-V

@@ -1,0 +1,21 @@
+PENTDI
+
+    Problem:
+    ********
+
+    A convex quadratic 5-diagonals problem in non-negative variables,
+    whose matrix has been taken from a paper of Pang and Liu.
+    The interesting feature of this matrix is that its condition number
+    increases with its order.
+
+    Source:
+    a contribution to fullfill the LANCELOT academic licence agreement,
+    inspired by
+    Y. Lin and J. Pang,
+    "Iterative methods for large convex quadratic programs: a survey",
+    SIAM Journal on Control and Optimization 25, pp.383-411, 1987.
+
+    SIF input: J. Judice, University of Coimbra, January 1995.
+               condensed by Ph. Toint, January 1995.
+
+    classification QBR2-AN-V-0

@@ -1,0 +1,16 @@
+BT4
+
+    Source: a variant of problem 4 in
+    P.T. Boggs and J.W. Tolle,
+    "A strategy for global convergence in a sequential
+     quadratic programming algorithm",
+    SINUM 26(3), pp. 600-623, 1989.
+
+    The original problem seems to be unbounded.  The contribution of
+    x3 in the first constraint has been squared instead of cubed.
+
+    The problem is not convex.
+
+    SIF input: Ph. Toint, June 1993.
+
+    classification QQR2-AN-3-2

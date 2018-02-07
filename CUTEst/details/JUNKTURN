@@ -1,0 +1,21 @@
+JUNKTURN
+
+    The spacecraft orientation problem by Junkins and Turner. This is a
+    nonlinear optimal control problem.
+
+    The problem is not convex.
+
+    Source:
+    A.I Tyatushkin, A.I. Zholudev and N. M. Erinchek,
+    "The gradient method for solving optimal control problems with phase
+    constraints",
+    in "System Modelling and Optimization", P. Kall, ed., pp. 456--464,
+    Springer Verlag, Lecture Notes in Control and Information Sciences 180, 1992.
+    This reference itself refers to:
+    I.L. Junkins and I.D. Turner,
+    "Optimal continuous torque attitude maneuvers",
+    AIAA/AAS Astrodynamics Conference, Palo Alto, 1978.
+
+    SIF input: Ph. Toint, February 1994.
+
+    classification QQR2-MN-V-V

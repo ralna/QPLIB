@@ -1,0 +1,28 @@
+CONT6-QQ
+
+    A quadratic-quadratic control problem as suggested by
+
+    A. Leung and S. Stojanovic,
+    ``Optimal control for elliptic Volterra--Lotka equations'',
+    J. Math. Analysis and Applications, vol. 173, pp.  603-619, 1993.
+
+    S. Stojanovic,
+    ``Optimal damping control and nonlinear elliptic systems'',
+    SIAM J. Control Optimization, vol. 29, pp.  594-608, 1991.
+
+    and
+
+    H. Maurer and H.D. Mittelmann,
+    ``Optimization techniques for solving elliptic control problems with
+    control and state constraints. Part 2: Distributed control``,
+    to appear in Comp. Optim. Applic 2000.
+
+    See also Hans Mittelmann's WWW article
+
+     http://plato.la.asu.edu/papers/paper88/paper.html
+
+     where the problem is Example 6.
+
+    SIF input: Nick Gould, September 2000
+
+    classification QQR2-AN-V-V

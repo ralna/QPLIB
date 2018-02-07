@@ -1,0 +1,22 @@
+NGONE
+
+    Find a polygon of maximal area, under the constraint that no two of
+    its vertices are further apart than 1.  The considered class of polygons
+    has one vertex fixed at the origin and one of its neighbouring vertices
+    constrained to lie on the horizontal axis.  Furthermore, vertices
+    must have increasing abscissas, which implies that the polygons are
+    of the form
+
+                      ---*-----*-*
+                     *            \
+                    /              *
+                   /                \
+                   *-----------------*
+                 (0,0)
+
+    Source:
+    Ph. Toint
+
+    SIF input: Ph. Toint, June 1990.
+
+    classification QQR2-AY-V-V

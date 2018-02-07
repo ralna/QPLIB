@@ -1,0 +1,25 @@
+CHENHARK
+
+    --------
+
+    A bound-constrained version the Linear Complementarity problem
+
+    Find x such that w = M x + q, x and w nonnegative and x^T w = 0,
+    where
+
+    M = (  6   -4   1   0  ........ 0 )
+        ( -4    6  -4   1  ........ 0 )
+        (  1   -4   6  -4  ........ 0 )
+        (  0    1  -4   6  ........ 0 )
+           ..........................
+        (  0   ........... 0  1 -4  6 )
+
+    and q is given.
+
+    Source:
+    B. Chen and P. T. Harker,
+    SIMAX 14 (1993) 1168-1190
+
+    SDIF input: Nick Gould, November 1993.
+
+    classification QBR2-AN-V-V

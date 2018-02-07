@@ -1,0 +1,8 @@
+BQPGABIM
+
+    The first 50 variable subproblem from BQPGAUSS.
+    but with variables 1, 15, 42 and 50 fixed at zero
+
+    SIF input: N. Gould, July 1990.
+
+    classification QBR2-AN-50-0

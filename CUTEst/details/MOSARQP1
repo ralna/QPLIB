@@ -1,0 +1,16 @@
+MOSARQP1
+
+    A convex quadratic problem, with variable dimensions.
+    In this problem, half the linear constraints are active at the solution.
+
+    Source:
+    J.L. Morales-Perez and R.W.H. Sargent,
+    "On the implementation and performance of an interior point method for
+    large sparse convex quadratic programming",
+    Centre for Process Systems Engineering, Imperial College, London,
+    November 1991.
+
+    SIF input: Ph. Toint, August 1993.
+               minor correction by Ph. Shott, Jan 1995.
+
+    classification QLR2-AN-V-V

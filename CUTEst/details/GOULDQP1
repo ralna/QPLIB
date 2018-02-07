@@ -1,0 +1,13 @@
+GOULDQP1
+
+    Source: problem 118 in
+    W. Hock and K. Schittkowski,
+    "Test examples for nonlinear programming codes",
+    Lectures Notes in Economics and Mathematical Systems 187, Springer
+    Verlag, Heidelberg, 1981, as modified by N.I.M. Gould in "An algorithm
+    for large-scale quadratic programming", IMA J. Num. Anal (1991),
+    11, 299-324, problem class 1.
+
+    SIF input: B Baudson, Jan 1990 modified by Nick Gould, Jan, 2011
+
+    classification QLR2-AN-32-17

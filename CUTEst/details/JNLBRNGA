@@ -1,0 +1,13 @@
+JNLBRNGA
+
+    The quadratic journal bearing problem (with excentricity = 0.1)
+
+    Source:
+    J. More' and G. Toraldo,
+    "On the Solution of Large Quadratic-Programming Problems with Bound
+    Constraints",
+    SIAM J. on Optimization, vol 1(1), pp. 93-113, 1991.
+
+    SIF input: Ph. Toint, Dec 1989.
+
+    classification QBR2-AY-V-0

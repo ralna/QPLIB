@@ -1,0 +1,33 @@
+OPTCTRL3
+
+    An optimal control problem
+
+    Source:
+    B. Murtagh and M. Saunders,
+    Mathematical Programming studies 16, pp 84-117,
+    (example 5.11)
+    This problem has been modified 18 Dec 92 by Todd Plantenga as follows.
+    To eliminate the active bound constraints on U1 to U9,
+    a penalty term is added to the objective:
+
+        mu*||u(i) - bound||
+
+    By trial and error, a value of mu was found to give good
+    agreement between augmented solution points and real ones,
+    while maintaining the same workload on LANCELOT.
+
+    New quantities are labelled with the string "TDP".
+
+    Solutions for:    case of T=10    case of T=40
+      mu = 1E2         545.7324         719.4766
+      mu = 1E3         549.5660        1347.958
+      mu = 1E4         549.9565        1889.521
+      mu = 1E5                         2030.612
+      mu = 1E6                         2048.003
+      mu = 1E7                         2049.788
+      mu = 1E8                         2049.967
+      mu = infinity    549.999986      2049.977124
+
+    SIF input: Nick Gould, June 1990 and T. Plantenga December 1992.
+
+    classification QQR2-AN-V-V

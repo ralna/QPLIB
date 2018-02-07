@@ -1,0 +1,21 @@
+AUG3DC
+
+    An expanded system formulation of a 3-D PDE system.
+
+    A nine-point discretization of Laplace's equation in a
+    rectangular domain may be expressed in the form
+
+          - M v = b,
+
+    where M = sum a_i a_i^T. Letting A = (a_1 .... a_m),
+    this system may be expanded as
+
+           ( I   A^T ) (x) = (0),
+           ( A    0  ) (v)   (b)
+
+    which is then equivalentto solving the EQP
+    minimize 1/2 || x ||_2^2   s.t.    A x = b
+
+    SIF input: Nick Gould, February 1994
+
+    classification QLR2-AN-V-V

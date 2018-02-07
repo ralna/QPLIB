@@ -1,0 +1,35 @@
+LISWET11
+
+    A k-convex approximation problem posed as a
+    convex quadratic problem, with variable dimensions.
+
+    Formulation:
+    -----------
+
+                 n+k             2
+    minimize 1/2 sum ( x  - c  )
+                 i=1    i    i
+
+    subject to
+
+                  k              k-i
+                 sum ( k ) ( -1 )    x     > 0
+                 i=0 ( i )            j+i  =
+
+    where c  = g( t ) + small perturbation, t  = (i-1)/(n+k-1)
+           i       i                         i
+
+    Case 11: g(t) = cos(2 pi t)
+
+    NB. Perturbations are not random as Li and Swetits's
+        random number generator is undefined.
+
+    Source:
+    W. Li and J. Swetits,
+    "A Newton method for convex regression, data smoothing and
+    quadratic programming with bounded constraints",
+    SIAM J. Optimization 3 (3) pp 466-488, 1993.
+
+    SIF input: Nick Gould, August 1994.
+
+    classification QLR2-AN-V-V

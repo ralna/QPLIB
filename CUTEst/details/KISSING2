@@ -1,0 +1,41 @@
+KISSING2
+
+    Problem: A second formulation of the KISSING NUMBER PROBLEM
+
+    Source: This problem is associated to the family of Hard-Spheres
+    problem. It belongs to the family of sphere packing problems, a
+    class of challenging problems dating from the beginning of the
+    17th century which is related to practical problems in Chemistry,
+    Biology and Physics. Given a fixed unit sphere at the origin in R^n,
+    the problem consists of arranging a further m unit spheres so that
+    sum of the distances to these spheres is as small as possible.
+    This problem may be reduced to a nonconvex nonlinear optimization
+    problem with a potentially large number of (nonoptimal) points
+    satisfying optimality conditions. We have, thus, a class of problems
+    indexed by the parameters m and n, that provides a suitable
+    set of test problems for evaluating nonlinear programming codes.
+    After some algebric manipulations, we can formulate this problem as
+
+               m
+     Minimize sum <p_i,p_i> - m n
+              i=1
+
+     subject to
+
+      <p_i - p_j, p_i - p_j> >= 4 for all different pair of indices i, j
+
+      and
+
+      <p_i, p_i> >= 4 for all indices i
+
+      as well as n(n-1)/2 normalisation constraints fixing components.
+
+      The goal is to find an objective value equal to 0.
+
+      [1]  "Sphere Packings, Lattices and Groups", J. H. Conway and
+            N. J. C. Sloane, Springer-Verlag, NY, 1988.
+
+
+    SIF input: Nick Gould, September 2000
+
+    classification QQR2-RN-V-V

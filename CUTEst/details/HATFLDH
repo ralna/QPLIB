@@ -1,0 +1,13 @@
+HATFLDH
+
+    A test problem from the OPTIMA user manual.
+    This is a nonlinear objective with
+    linear constraints.
+
+    Source:
+    "The OPTIMA user manual (issue No.8, p. 91)",
+    Numerical Optimization Centre, Hatfield Polytechnic (UK), 1989.
+
+    SIF input: Ph. Toint, May 1990.
+
+    classification QLR2-AN-4-7

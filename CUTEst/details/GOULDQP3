@@ -1,0 +1,13 @@
+GOULDQP3
+
+    Source: a variant on a problem of optimal knot placement in a
+    scheme for ordinary differential equations with boundary values
+    suggested by J. R. Kightley, see N. I. M. Gould, "An algorithm for
+    large-scale quadratic programming", IMA J. Num. Anal (1991),
+    11, 299-324, problem class 3. Note that the optimal solution values
+    given in that paper are incorrect.
+
+    SIF input: Nick Gould, December 1991
+               Revised June 1998 with rescaling for larger examples
+
+    classification QLR2-MN-V-V

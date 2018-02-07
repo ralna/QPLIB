@@ -1,0 +1,27 @@
+POWELL20
+
+    A degenerate convex quadratic problem with variable dimension.
+
+    Formulation:
+    -----------
+
+                  n    2
+    minimize 1/2 sum  x
+                 i=1   i
+
+    subject to
+                                         k
+              x     - x    > - 0.5 + (-1)  k   , k = 1, ... , n-1
+               k+1     k   =
+    and
+              x   - x    > n - 0.5
+               1     n   =
+
+    Source: a generalization of problem 20 in
+    M. J. D. Powell
+    "On the quadratic progamming algorithm of Goldfarb and Idnani",
+    Mathematical Programmimg Study 25 (1985) 46-61.
+
+    SIF input: Nick Gould, August 1994.
+
+    classification QLR2-AN-V-V

@@ -1,0 +1,52 @@
+BLOWEYC
+
+    A nonconvex quadratic program proposed by
+    James Blowey (University of Durham)
+
+    Given function v(s) and f(s) = v(s) + A(inv) v(s), s in [0,1],
+    minimize
+
+         (u(s) - v(s))(trans) ( A + A(inv) ) u(s) - (u(s) - v(s))(trans)f(s)
+
+    where
+
+       u(s) in [-1,1] and int[0,1] u(s) ds = int[0,1] v(s) ds
+
+    and A is the
+
+       "- Laplacian with Neumann boundary conditions on a uniform mesh"
+
+    The troublesome term A(inv) u(s) is replaced by the additional
+    variable w(s) and the constraint A w(s) = u(s)
+
+    The function v(s) is chosen to be
+
+   1  ----         ----
+          \       /
+           \     /
+            \   /
+  -1         ---
+
+    Thus the problem is formulated as the nonconvex QP
+
+    minimize
+
+         u(s) (trans) A u(s) + u(s) (trans) w(s) -
+         v(s)(trans) A u(s) - 2.0 v(s)(trans) w(s) -
+         u(s)(trans) v(s) + constant (ignored)
+
+    subject to A w(s) = u(s),
+               u(s) in [-1,1],
+           and int[0,1] u(s) ds = 1 + a + b - c - d
+
+    Case C: a = 0.2, b = 0.5, c = 0.5 and d = 0.8.
+
+    Source: a simplification of
+    J.F. Blowey and C.M. Elliott,
+    "The Cahn-Hilliard gradient theory for phase separation with
+    non-smooth free energy Part II: Numerical analysis",
+    European Journal of Applied Mathematics (3) pp 147-179, 1992.
+
+    SIF input: Nick Gould, August 1996
+
+    classification QLR2-MN-V-V

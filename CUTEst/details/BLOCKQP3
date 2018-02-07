@@ -1,0 +1,25 @@
+BLOCKQP3
+
+    A non-convex quadratic program with some structure.
+
+    The objective function is of the form
+
+       sum (i=1,n) (i/n) ( x_i y_i ) + sum(j=1,b) z_j^2
+
+    (cf BLOCKQP1.SIF where the factor (i/n) is missing).
+    There are n equality constraints of the form
+
+         x_i + y_i + sum (j=1,b) z_j = b
+
+    There is an inequality constraint of the form
+
+       sum(i=1,n) x_i + y_i + sum(j=1,b) z_j >= b + 1
+
+    Finally, there are simple bounds
+
+          1 <= x_i, y_i <= 1    (i=1,n)
+          0 <= z_j <= 2         (j=1,b)
+
+    SIF input: Nick Gould, June 1994
+
+    classification QLR2-AN-V-V

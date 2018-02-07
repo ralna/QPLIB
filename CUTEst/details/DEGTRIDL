@@ -1,0 +1,8 @@
+DEGTRIDL
+
+    A degenerate bound constrained convex quadratic program
+    with a tri-diagonal Hessian
+
+    SIF input: Nick Gould, August 2011
+
+    classification QLR2-AN-V-1

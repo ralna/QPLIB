@@ -1,0 +1,16 @@
+BIGGSB1
+
+    Problem:
+    ********
+
+    A test quadratic test problem with bounds on the variables
+
+    Source:
+    M. Batholomew-Biggs and F.G. Hernandez,
+    "Some improvements to the subroutine OPALQP for dealing with large
+     problems",
+    Numerical Optimization Centre, Hatfield, 1992.
+
+    SIF input: Ph Toint, April 1992.
+
+    classification QBR2-AN-V-V

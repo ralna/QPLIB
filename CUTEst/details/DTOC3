@@ -1,0 +1,22 @@
+DTOC3
+
+    This is a discrete time optimal control (DTOC) problem.
+    The system has N time periods, 1 control variable and 2 state variables.
+
+    The problem is convex.
+
+    Sources: problem 3 in
+    T.F. Coleman and A. Liao,
+    "An Efficient Trust Region Method for Unconstrained Discret-Time Optimal
+    Control Problems",
+    Tech. Report, ctc93tr144,  Advanced Computing Research Institute,
+    Cornell University, 1992.
+
+    D.P. Bertsekas,
+    "Projected Newton methods for optimization problems with simple
+    constraints",
+    SIAM J. Control and Optimization 20, pp. 221-246, 1982.
+
+    SIF input: Ph. Toint, August 1993
+
+    classification QLR2-AN-V-V

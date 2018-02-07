@@ -1,0 +1,16 @@
+TARGUS
+
+    A two-norm fitted formulation of the problem of finding the
+    smallest perturbation of data that fits a linear model
+    arising in large-scale tabular data protection.
+
+    Source:
+    J. Castro,
+    Minimum-distance controlled perturbation methods for
+    large-scale tabular data protection,
+    European Journal of Operational Research 171 (2006) pp 39-52.
+
+    SIF input: Jordi Castro, 2006 as L2_targus.mps
+    see http://www-eio.upc.es/~jcastro/data.html
+
+    classification QLR2-RN-162-63

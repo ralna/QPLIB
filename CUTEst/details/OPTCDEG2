@@ -1,0 +1,17 @@
+OPTCDEG2
+
+    An optimal control problem determining the applied force
+    that restores a damped spring-mass system to equilibrium
+    as fast as possible, given bounds on state and control
+    variables.  The displacement of the mass from equilibrium
+    is x, velocity is y, and the controlling force is u.
+
+    Source:
+    B. Murtagh and M. Saunders,
+    Mathematical Programming studies 16, pp 84-117,
+    (example 5.11)
+
+    SIF input: Nick Gould, June 1990.
+               Todd Plantenga, August 1995.
+
+    classification QQR2-AN-V-V

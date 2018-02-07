@@ -1,0 +1,28 @@
+TORSIONF
+
+    The quadratic elastic torsion problem
+
+    The problem comes from the obstacle problem on a square.
+
+    The square is discretized into (px-1)(py-1) little squares. The
+    heights of the considered surface above the corners of these little
+    squares are the problem variables,  There are px**2 of them.
+
+    The dimension of the problem is specified by Q, which is half the
+    number discretization points along one of the coordinate
+    direction.
+    Since the number of variables is P**2, it is given by 4Q**2
+
+    This is a variant of the problem stated in the report quoted below.
+    It corresponds to the problem as distributed in MINPACK-2.
+
+    Source: problem (c=20, starting point Z = origin) in
+    J. More' and G. Toraldo,
+    "On the Solution of Large Quadratic-Programming Problems with Bound
+    Constraints",
+    SIAM J. on Optimization, vol 1(1), pp. 93-113, 1991.
+
+    SIF input: Ph. Toint, Dec 1989.
+    modified by Peihuang Chen, according to MINPACK-2, Apr 1992.
+
+    classification QBR2-MY-V-0
