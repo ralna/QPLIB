@@ -1,0 +1,5 @@
+#!/bin/csh -f
+
+foreach qplibfile(`/bin/ls *.qplib`)
+  ../read_qplib < $qplibfile
+end
